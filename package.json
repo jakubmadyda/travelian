@@ -1,0 +1,27 @@
+{
+  "name": "travelian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./src/sass/main.scss ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubMadyda/travelian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakubMadyda/travelian/issues"
+  },
+  "homepage": "https://github.com/JakubMadyda/travelian#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+
+  }
+}
