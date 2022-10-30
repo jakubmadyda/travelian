@@ -5,10 +5,69 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Travelian</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<section class="intro">
+    <header class="intro__header header">
+        <a href="" class="header__logo logo"><img src="./src/images/Logo.svg" alt="Travelian logo" class="logo__img"></a>
+        <nav class="header__menu main-menu">
+            <a href="" class="main-menu__item main-menu__item--active">Home</a>
+            <a href="" class="main-menu__item">Explore</a>
+            <a href="" class="main-menu__item">Travel</a>
+            <a href="" class="main-menu__item">Blog</a>
+            <a href="" class="main-menu__item">Pricing</a>
+        </nav>
+        <nav class="header__menu auth-menu">
+            <a href="" class="auth-menu__item">Login</a>
+            <a href="" class="auth-menu__item auth-menu__item--btn">Sign up</a>
+        </nav>
+    </header>
+
+
+    <div class="lead">
+        <h1 class="lead__hdl">Start your unforgettable<br> journey with us.</h1>
+        <p class="lead__text">The best travel for your journey begins now</p>
+    </div>
+
+    <form action="" class="search">
+        <div class="search__wrapper">
+        <div class="search__group">
+            <label for="destination" class="search__lbl">Destination</label>
+            <input type="text" id="destination" name="destination" class="search__input" placeholder="Dubai">
+        </div>
+        <div class="search__group">
+            <label for="person" class="search__lbl">Person</label>
+            <select name="person" id="person" class="search__input search__input--select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div class="search__group">
+            <label for="checkin" class="search__lbl">Check In</label>
+            <input type="date" id="checkin" name="checkin" class="search__input">
+        </div>
+
+        <div class="search__group">
+            <label for="checkout" class="search__lbl">Check Out</label>
+            <input type="date" id="checkout" name="checkout" class="search__input">
+        </div>
+
+        <button type="submit" class="search__btn">Book<br>Now</button>
+        </div>
+    </form>
+</section>
 
 </body>
 </html>
