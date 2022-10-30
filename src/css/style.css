@@ -307,4 +307,57 @@ template {
   display: none;
 }
 
+html, body {
+  font-size: 16px;
+}
+
+.auth-menu__item, .main-menu__item {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.625rem;
+  margin: 0.375rem;
+  display: inline-block;
+}
+
+.intro {
+  background-image: url("../images/Hero Section.jpg");
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 97.25rem;
+  width: 100%;
+  margin: auto;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.main-menu__item--active, .main-menu__item:hover {
+  font-weight: 500;
+  position: relative;
+}
+.main-menu__item--active::before, .main-menu__item:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0.375rem;
+  left: 0.625rem;
+  width: calc(100% - 1.25rem);
+  height: 0.1875rem;
+  display: block;
+  margin: auto;
+  background: #FF7757;
+}
+
+.auth-menu__item--btn {
+  border-radius: 0.75rem;
+  background: #FF7757;
+  padding: 1.25rem 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
