@@ -332,6 +332,8 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 6.25rem;
+  box-sizing: border-box;
 }
 
 .header {
