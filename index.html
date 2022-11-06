@@ -18,7 +18,8 @@
 
 <section class="intro">
     <header class="intro__header header">
-        <a href="" class="header__logo logo"><img src="./src/images/Logo.svg" alt="Travelian logo" class="logo__img"></a>
+        <a href="" class="header__logo logo"><img src="./src/images/Logo.svg" alt="Travelian logo"
+                                                  class="logo__img"></a>
         <nav class="header__menu main-menu">
             <a href="" class="main-menu__item main-menu__item--active">Home</a>
             <a href="" class="main-menu__item">Explore</a>
@@ -40,31 +41,31 @@
 
     <form action="" class="search">
         <div class="search__wrapper">
-        <div class="search__group">
-            <label for="destination" class="search__lbl">Destination</label>
-            <input type="text" id="destination" name="destination" class="search__input" placeholder="Dubai">
-        </div>
-        <div class="search__group">
-            <label for="person" class="search__lbl">Person</label>
-            <select name="person" id="person" class="search__input search__input--select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-        <div class="search__group">
-            <label for="checkin" class="search__lbl">Check In</label>
-            <input type="date" id="checkin" name="checkin" class="search__input">
-        </div>
+            <div class="search__group">
+                <label for="destination" class="search__lbl">Destination</label>
+                <input type="text" id="destination" name="destination" class="search__input" placeholder="Dubai">
+            </div>
+            <div class="search__group">
+                <label for="person" class="search__lbl">Person</label>
+                <select name="person" id="person" class="search__input search__input--select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="search__group">
+                <label for="checkin" class="search__lbl">Check In</label>
+                <input type="date" id="checkin" name="checkin" class="search__input">
+            </div>
 
-        <div class="search__group">
-            <label for="checkout" class="search__lbl">Check Out</label>
-            <input type="date" id="checkout" name="checkout" class="search__input">
-        </div>
+            <div class="search__group">
+                <label for="checkout" class="search__lbl">Check Out</label>
+                <input type="date" id="checkout" name="checkout" class="search__input">
+            </div>
 
-        <button type="submit" class="search__btn">Book<br>Now</button>
+            <button type="submit" class="search__btn">Book<br>Now</button>
         </div>
     </form>
 </section>
@@ -72,10 +73,36 @@
 
 <section class="destination">
     <div class="destination__title title">
-        <h1 class="title__h1">Popular Destinations</h1>
-        <p class="title__description">Most popular destinations around the world, from historical places to natural wonders</p>
-        <button type="button" class="previous__btn"><</button>
-        <button type="button" class="next__btn">></button>
+        <h1 class="title__h1 h1">Popular Destinations</h1>
+        <p class="title__description description">Most popular destinations around the world, from historical places to
+            natural wonders</p>
+    </div>
+
+    <div class="destination__gallery gallery">
+        <div class="gallery__Germany Germany blocks">
+            <div class="spec">
+                <h2 class="name">Monument of Berlin</h2>
+                <p class="localization">Berlin, Germany</p>
+            </div>
+        </div>
+        <div class="gallery__London London blocks">
+            <div class="spec">
+                <h2 class="name">Millennium Bridge</h2>
+                <p class="localization">London, United Kingdom</p>
+            </div>
+        </div>
+        <div class="gallery__Italy Italy blocks">
+            <div class="spec">
+                <h2 class="name">Riatlo Bridge</h2>
+                <p class="localization">Venice, Italy</p>
+            </div>
+        </div>
+        <div class="gallery__Portugal Portugal blocks">
+            <div class="spec">
+                <h2 class="name">Sea of Orange Tiles</h2>
+                <p class="localization">Lisbon, Portugal</p>
+            </div>
+        </div>
     </div>
 </section>
 
