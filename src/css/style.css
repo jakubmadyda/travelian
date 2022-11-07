@@ -472,24 +472,17 @@ html, body {
 }
 
 .destination {
-  min-height: 100vh;
-  background-color: #FFF;
-  padding: 1.625rem 0 8.75rem 11.375rem;
-  display: flex;
-  flex-direction: column;
+  max-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.title {
+  margin: 140px auto 54px;
   display: flex;
   flex-direction: column;
-  margin-right: 24.125rem;
+  align-content: center;
+  gap: 100px;
 }
 
-.h1 {
+.title__h1 {
   color: #172432;
   font-weight: 400;
   font-size: 4rem;
@@ -497,19 +490,19 @@ html, body {
   font-family: "Playfair Display", serif;
   font-style: normal;
   display: inline-block;
+  margin: 0;
 }
-.h1::after {
+.title__h1::after {
   content: "";
   position: absolute;
   background: #FF7757;
   width: 22.8125rem;
   height: 0;
-  margin: auto;
-  border: 2px solid #FF7757;
+  margin: 0;
+  border: 1px solid #FF7757;
   display: block;
 }
-
-.description {
+.title__description {
   color: #767E86;
   font-weight: 400;
   font-family: Rubik, sans-serif;
@@ -518,56 +511,36 @@ html, body {
 
 .gallery {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  gap: 32px;
 }
 
-.blocks {
-  background-position: center;
-  background-size: cover;
-  width: 497px;
-  height: 661px;
-  border-radius: 26px;
-}
-
-.spec {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.Germany {
-  background-image: url("../images/destination1.jpg");
-}
-
-.London {
-  background-image: url("../images/destination2.png");
-}
-
-.Italy {
-  background-image: url("../images/destination3.png");
-}
-
-.Portugal {
-  background-image: url("../images/destination4.png");
-}
-
-.name {
+.content__name {
   font-family: "Playfair Display", serif;
-  color: #767E86;
+  color: #FFF;
   font-weight: 500;
   font-size: 1.75rem;
-  line-height: 2.3125rem;
+  line-height: 1.32;
   text-decoration: none;
+  margin: 0 auto 17px 24px;
+  translate: 0 -120px;
 }
 
 .localization {
   font-family: Rubik, sans-serif;
-  color: #767E86;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.75rem;
   text-decoration: none;
+  margin-bottom: 0;
+}
+.localization::before {
+  content: "";
+  background-image: url("../images/location_1.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
