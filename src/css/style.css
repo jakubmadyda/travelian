@@ -646,7 +646,7 @@ html, body {
   min-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  margin: 0 auto 140px;
+  margin: 0 auto 237px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -703,6 +703,77 @@ html, body {
 
 html, body {
   font-size: 16px;
+}
+
+.planner {
+  max-width: 97.25rem;
+  width: 100%;
+  margin: 0 auto 280px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  height: 545px;
+}
+
+.planner-description {
+  color: #767E86;
+  font-weight: 400;
+  font-family: Rubik, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.17;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.containers {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.trip-content {
+  width: 300px;
+  height: 399px;
+  border-radius: 26px;
+}
+.trip-content--active {
+  translate: 0 -53px;
+}
+
+.content-desc {
+  margin: 20px 0;
+}
+
+.tour-price {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.17;
+  color: #172432;
+  width: 300px;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tour-name {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.32;
+  color: #172432;
+  font-style: normal;
+  margin: 12px 0;
+}
+
+.tour-duration {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.17;
+  color: #172432;
+  width: 300px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

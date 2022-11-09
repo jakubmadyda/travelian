@@ -2,36 +2,79 @@
 @import "helpers";
 
 .planner {
-
+    max-width: toRem(1556px);
+    width: 100%;
+    margin: 0 auto 280px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 545px;
 }
 
 .title {}
 
 .hdl2 {}
 
-.description {}
+.planner-description {
+    color: $secondary-font-color;
+    font-weight: 400;
+    font-family: Rubik, sans-serif;
+    font-size: toRem(18px);
+    line-height: 1.17;
+    margin-top: toRem(32px);
+    margin-bottom: 0;
+}
 
 .containers {
+    display: flex;
+    gap: 32px;
+    align-items: center;
 
 }
 
-.content {
-
+.trip-content {
+    width: 300px;
+    height: 399px;
+    border-radius: 26px;
+    &--active {
+        translate: 0 -53px;
+    }
 }
 
 .content-desc {
-
+    margin: 20px 0;
 }
 
 .tour-price {
-
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-size: toRem(18px);
+    line-height: 1.17;
+    color: $input-font-color;
+    width: 300px;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .tour-name {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: toRem(28px);
+    line-height: 1.32;
+    color: $input-font-color;
+    font-style: normal;
+    margin: 12px 0;
 
 }
 
 .tour-duration {
-
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-size: toRem(18px);
+    line-height: 1.17;
+    color: $input-font-color;
+    width: 300px;
+    margin: 0;
 }
 
