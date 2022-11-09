@@ -1,0 +1,101 @@
+@import "variables";
+@import "helpers";
+
+.special_offer {
+    max-height: 100vh;
+    max-width: toRem(1556px);
+    width: 100%;
+    margin: 140px auto 140px;
+    display: flex;
+    flex-direction: column;
+    gap: toRem(100px);
+
+}
+
+.hdl-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__hdl2 {
+
+    }
+
+    &__description {
+
+    }
+}
+
+.offer {
+    display: flex;
+    gap: 32px;
+}
+
+.offer-block {
+    width: toRem(497px);
+    height: toRem(629px);
+    background-color: $third-color;
+    border-radius: 26px;
+
+}
+
+.text-block {
+    padding: 40px 24px;
+
+}
+
+.hdl3 {
+    font-family: Mulish, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: $secondary-font-color;
+    width: 449px;
+    height: 35px;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.rating {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.text-info {
+    font-family: Rubik, sans-serif;
+    color: $input-font-color;
+    font-weight: 400;
+    size: 18px;
+    line-height: 21px;
+    width: 445px;
+    height: 84px;
+    margin: 24px 0;
+}
+
+.price-block {
+    display: flex;
+    align-items: center;
+}
+
+.price-text {
+    font-family: Rubik, sans-serif;
+    color: $secondary-font-color;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 49px;
+    height: 24px;
+    margin: 0;
+}
+
+.price {
+    font-family: Rubik, sans-serif;
+    color: #FF7757;
+    font-weight: 400;
+    line-height: 47px;
+    font-size: 40px;
+    width: 104px;
+    height: 47px;
+    margin: 0;
+}

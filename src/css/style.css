@@ -482,7 +482,7 @@ html, body {
   gap: 100px;
 }
 
-.title__h1 {
+.hdl2 {
   color: #172432;
   font-weight: 400;
   font-size: 4rem;
@@ -490,9 +490,9 @@ html, body {
   font-family: "Playfair Display", serif;
   font-style: normal;
   display: inline-block;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
-.title__h1::after {
+.hdl2::after {
   content: "";
   position: absolute;
   background: #FF7757;
@@ -501,12 +501,16 @@ html, body {
   margin: 0;
   border: 1px solid #FF7757;
   display: block;
+  translate: 0 20px;
 }
-.title__description {
+
+.description {
   color: #767E86;
   font-weight: 400;
   font-family: Rubik, sans-serif;
   line-height: 1.7775rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .gallery {
@@ -541,6 +545,97 @@ html, body {
   width: 24px;
   height: 24px;
   margin-right: 16px;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+.special_offer {
+  max-height: 100vh;
+  max-width: 97.25rem;
+  width: 100%;
+  margin: 140px auto 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem;
+}
+
+.hdl-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.offer {
+  display: flex;
+  gap: 32px;
+}
+
+.offer-block {
+  width: 31.0625rem;
+  height: 39.3125rem;
+  background-color: #FFF8F1;
+  border-radius: 26px;
+}
+
+.text-block {
+  padding: 40px 24px;
+}
+
+.hdl3 {
+  font-family: Mulish, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #767E86;
+  width: 449px;
+  height: 35px;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.rating {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.text-info {
+  font-family: Rubik, sans-serif;
+  color: #172432;
+  font-weight: 400;
+  size: 18px;
+  line-height: 21px;
+  width: 445px;
+  height: 84px;
+  margin: 24px 0;
+}
+
+.price-block {
+  display: flex;
+  align-items: center;
+}
+
+.price-text {
+  font-family: Rubik, sans-serif;
+  color: #767E86;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 49px;
+  height: 24px;
+  margin: 0;
+}
+
+.price {
+  font-family: Rubik, sans-serif;
+  color: #FF7757;
+  font-weight: 400;
+  line-height: 47px;
+  font-size: 40px;
+  width: 104px;
+  height: 47px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
