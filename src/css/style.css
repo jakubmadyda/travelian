@@ -475,7 +475,7 @@ html, body {
   max-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  margin: 140px auto 0;
+  margin: 140px auto 50px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -555,7 +555,8 @@ html, body {
   max-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  margin: 194px auto 280px;
+  margin: 0 auto 280px;
+  padding-top: 140px;
   display: flex;
   flex-direction: column;
   gap: 6.25rem;
@@ -643,10 +644,10 @@ html, body {
 }
 
 .blog {
-  min-height: 100vh;
+  max-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  margin: 0 auto 237px;
+  margin: 0 auto 0;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -708,7 +709,8 @@ html, body {
 .planner {
   max-width: 97.25rem;
   width: 100%;
-  margin: 0 auto 280px;
+  margin: 0 auto 240px;
+  padding-top: 240px;
   display: flex;
   align-items: center;
   gap: 100px;
@@ -726,18 +728,17 @@ html, body {
 }
 
 .containers {
+  width: 944px;
   display: flex;
   gap: 32px;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .trip-content {
   width: 300px;
   height: 399px;
   border-radius: 26px;
-}
-.trip-content--active {
-  translate: 0 -53px;
 }
 
 .content-desc {

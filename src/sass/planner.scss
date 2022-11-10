@@ -4,7 +4,8 @@
 .planner {
     max-width: toRem(1556px);
     width: 100%;
-    margin: 0 auto 280px;
+    margin: 0 auto 240px;
+    padding-top: 240px;
     display: flex;
     align-items: center;
     gap: 100px;
@@ -26,9 +27,11 @@
 }
 
 .containers {
+    width: 944px;
     display: flex;
     gap: 32px;
     align-items: center;
+    justify-content: flex-start;
 
 }
 
@@ -36,9 +39,6 @@
     width: 300px;
     height: 399px;
     border-radius: 26px;
-    &--active {
-        translate: 0 -53px;
-    }
 }
 
 .content-desc {
