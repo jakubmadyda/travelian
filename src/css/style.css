@@ -568,7 +568,31 @@ html, body {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-end;
+  text-align: right;
 }
+
+.hdl3 {
+  color: #172432;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.331875rem;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  display: inline-block;
+  margin: 0 0 20px 0;
+}
+.hdl3::after {
+  content: "";
+  position: absolute;
+  background: #FF7757;
+  width: 15.0625rem;
+  height: 0;
+  margin: 0;
+  border: 1px solid #FF7757;
+  display: block;
+  translate: 124px 20px;
+}
+
 .offer {
   display: flex;
   gap: 32px;
@@ -585,7 +609,7 @@ html, body {
   padding: 40px 24px;
 }
 
-.hdl3 {
+.hd3 {
   font-family: Mulish, sans-serif;
   font-weight: 400;
   font-size: 28px;
@@ -615,7 +639,14 @@ html, body {
 
 .price-block {
   display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.price-line {
+  display: flex;
   align-items: center;
+  gap: 8px;
 }
 
 .price-text {
@@ -640,6 +671,22 @@ html, body {
   margin: 0;
 }
 
+.special_offer-button {
+  color: #FFF;
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background: #FF7757;
+  width: 159px;
+  height: 64px;
+  border-radius: 12px;
+  padding: 20px 40px;
+  border: 0;
+  cursor: pointer;
+}
+
 html, body {
   font-size: 16px;
 }
@@ -653,6 +700,28 @@ html, body {
   flex-direction: column;
   align-content: center;
   gap: 100px;
+}
+
+.hdl4 {
+  color: #172432;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.331875rem;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  display: inline-block;
+  margin: 0 0 20px 0;
+}
+.hdl4::after {
+  content: "";
+  position: absolute;
+  background: #FF7757;
+  width: 9.375rem;
+  height: 0;
+  margin: 0;
+  border: 1px solid #FF7757;
+  display: block;
+  translate: 0 20px;
 }
 
 .blog-content {
@@ -718,6 +787,28 @@ html, body {
   height: 545px;
 }
 
+.hdl5 {
+  color: #172432;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.331875rem;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  display: inline-block;
+  margin: 0 0 20px 0;
+}
+.hdl5::after {
+  content: "";
+  position: absolute;
+  background: #FF7757;
+  width: 14.4375rem;
+  height: 0;
+  margin: 0;
+  border: 1px solid #FF7757;
+  display: block;
+  translate: 0 20px;
+}
+
 .planner-description {
   color: #767E86;
   font-weight: 400;
@@ -746,14 +837,18 @@ html, body {
   margin: 20px 0;
 }
 
+.tour-price-box {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
 .tour-price {
   font-family: Rubik, sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.17;
   color: #172432;
-  width: 300px;
-  display: inline-block;
   margin: 0;
   text-transform: uppercase;
 }
@@ -768,14 +863,20 @@ html, body {
   margin: 12px 0;
 }
 
+.tour-duration-box {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
 .tour-duration {
   font-family: Rubik, sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.17;
   color: #172432;
-  width: 300px;
   margin: 0;
+  text-align: right;
 }
 
 html, body {
@@ -789,6 +890,28 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 100px;
+}
+
+.hdl6 {
+  color: #172432;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.331875rem;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  display: inline-block;
+  margin: 0 0 20px 0;
+}
+.hdl6::after {
+  content: "";
+  position: absolute;
+  background: #FF7757;
+  width: 17.6875rem;
+  height: 0;
+  margin: 0;
+  border: 1px solid #FF7757;
+  display: block;
+  translate: 0 20px;
 }
 
 .gallery-containers {

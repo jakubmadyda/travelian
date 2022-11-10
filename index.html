@@ -84,7 +84,6 @@
         <p class="title__description description">Most popular destinations around the world, from historical places to
             natural wonders.</p>
     </div>
-
     <div class="destination__gallery gallery">
         <div class="gallery__content content">
             <img src="./src/images/destination1.jpg" alt="">
@@ -111,9 +110,9 @@
 <section class="special_offer">
 
     <div class="special_offer__hdl-box hdl-box">
-        <div class="title2">
-            <h1 class="title2__hdl2 hdl2">Special Offer</h1>
-            <p class="title2__description description">Check out our special offer and discounts</p>
+        <div class="title">
+            <h1 class="title__hdl3 hdl3">Special Offer</h1>
+            <p class="title__description description">Check out our special offer and discounts</p>
         </div>
         <div>
             <button><</button>
@@ -125,48 +124,54 @@
         <div class="offer__offer-block offer-block">
             <img src="src/images/offer_image.png" alt="">
             <div class="offer-block__text-block text-block">
-                <h2 class="text-block__hdl3 hdl3">Lisbon, Portugal</h2>
+                <h2 class="text-block__hd3 hd3">Lisbon, Portugal</h2>
                 <img class="rating" src="./src/images/Rating.svg" alt="">
                 <p class="text-block__text-info text-info">5 nights and 4 days in 5 star hotel, breakfast and lunch
                     included. Very
                     popular during the renaissance. Passage and going through the cites of the world in classical
                     literature.</p>
-                <div class="text-block__price-block price-block">
-                    <p class="price-block__price-text price-text">From</p>
-                    <p class="price-block__price price">€500</p>
-                    <button type="button">DETAILS</button>
+                <div class="price-block">
+                    <div class="text-block__price-line price-line">
+                        <p class="price-block__price-text price-text">From</p>
+                        <p class="price-block__price price">€500</p>
+                    </div>
+                    <button type="button" class="special_offer-button">details</button>
                 </div>
             </div>
         </div>
         <div class="offer__offer-block offer-block">
             <img src="src/images/offer_image2.png" alt="">
             <div class="offer-block__text-block text-block">
-                <h2 class="text-block__hdl3 hdl3">Athens, Greece</h2>
+                <h2 class="text-block__hd3 hd3">Athens, Greece</h2>
                 <img class="rating" src="./src/images/Rating.svg" alt="">
                 <p class="text-block__text-info text-info">5 nights and 4 days in 5 star hotel, breakfast and lunch
                     included. Very
                     popular during the renaissance. Passage and going through the cites of the world in classical
                     literature.</p>
-                <div class="text-block__price-block price-block">
-                    <p class="price-text">From</p>
-                    <p class="price">€800</p>
-                    <button type="button">DETAILS</button>
+                <div class="price-block">
+                    <div class="text-block__price-line price-line">
+                        <p class="price-block__price-text price-text">From</p>
+                        <p class="price-block__price price">€800</p>
+                    </div>
+                    <button type="button" class="special_offer-button">details</button>
                 </div>
             </div>
         </div>
         <div class="offer__offer-block offer-block">
             <img src="src/images/offer_image3.png" alt="">
             <div class="offer-block__text-block text-block">
-                <h2 class="text-block__hdl3 hdl3">Rome, Italy</h2>
+                <h2 class="text-block__hd3 hd3">Rome, Italy</h2>
                 <img class="rating" src="./src/images/Rating.svg" alt="">
                 <p class="text-block__text-info text-info">5 nights and 4 days in 5 star hotel, breakfast and lunch
                     included. Very
                     popular during the renaissance. Passage and going through the cites of the world in classical
                     literature.</p>
-                <div class="text-block__price-block price-block">
-                    <p class="price-text">From</p>
-                    <p class="price">€750</p>
-                    <button>DETAILS</button>
+                <div class="price-block">
+                    <div class="text-block__price-line price-line">
+                        <p class="price-block__price-text price-text">From</p>
+                        <p class="price-block__price price">€750</p>
+                    </div>
+                    <button type="button" class="special_offer-button">details</button>
                 </div>
             </div>
         </div>
@@ -175,7 +180,7 @@
 
 <section class="blog">
     <div class="blog__title title">
-        <h2 class="title__hdl2 hdl2">Our Blog</h2>
+        <h2 class="title__hdl4 hdl4">Our Blog</h2>
         <p class="title__description description">An insight the incredible experience in the world</p>
     </div>
     <div class="blog__blog-content blog-content">
@@ -195,8 +200,9 @@
 
 <section class="planner">
     <div class="planner__title title">
-        <h2 class="title__hdl2 hdl2">Trip Planners</h2>
-        <p class="title__planner-description planner-description">20 years from now you will be more<br> disappointed by the things that you
+        <h2 class="title__hdl5 hdl5">Trip Planners</h2>
+        <p class="title__planner-description planner-description">20 years from now you will be more<br> disappointed by
+            the things that you
             didn’t do.<br> Stop regretting and start travelling, start<br> throwing off the bowlines.</p>
     </div>
     <div class="planner__containers containers">
@@ -204,19 +210,25 @@
         <div>
             <img src="src/images/planner-content2.png" alt="" class="trip-content">
             <div class="content-desc">
-                <p class="tour-price">guided tour €99/Day</p>
+                <div class="tour-price-box">
+                    <p class="tour-price">guided tour</p>
+                    <p class="tour-price">€99/Day</p>
+                </div>
                 <h4 class="tour-name">Paris City Tour</h4>
-                <p class="tour-duration">7 Days tour</p>
+                <div class="tour-duration-box">
+                    <img src="./src/images/Rating.svg" alt="">
+                    <p class="tour-duration">7 Days tour</p>
+                </div>
             </div>
         </div>
         <img src="src/images/planner-content3.png" alt="" class="trip-content">
-       <!-- <img src="src/images/planner-content4.png" alt="" class="content"> -->
+        <!-- <img src="src/images/planner-content4.png" alt="" class="content"> -->
     </div>
 </section>
 
 <section class="photo-gallery">
     <div class="photo-gallery__title title">
-        <div class="title__hdl2 hdl2">Destination Gallery</div>
+        <div class="title__hdl6 hdl6">Destination Gallery</div>
         <div class="title__description description">Our photo gallery on trip</div>
     </div>
     <div class="photo-gallery__gallery-containers gallery-containers">
@@ -226,6 +238,7 @@
         <img src="/src/images/gallery-photo4.png" alt="" class="gallery-content">
     </div>
 </section>
+
 
 </body>
 </html>

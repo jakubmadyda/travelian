@@ -13,7 +13,28 @@
 
 .title {}
 
-.hdl2 {}
+.hdl6 {
+    color: #172432;
+    font-weight: 400;
+    font-size: toRem(64px);
+    line-height: toRem(85.31px);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    &::after {
+        content: "";
+        position: absolute;
+        background: $primary-color;
+        width: toRem(283px);
+        height: 0;
+        margin: 0;
+        border: 1px solid $primary-color;
+        display: block;
+        translate: 0 20px;
+
+    }
+}
 
 .description {}
 
