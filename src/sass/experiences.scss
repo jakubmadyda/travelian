@@ -1,0 +1,68 @@
+@import "helpers";
+@import "variables";
+
+.experiences {
+    max-height: 100vh;
+    max-width: toRem(1556px);
+    width: 100%;
+    margin: 0 auto 140px;
+    display: flex;
+    flex-direction: column;
+    height: toRem(828px);
+    justify-content: space-between;
+
+}
+
+.title {}
+
+.hdl7 {
+    color: #172432;
+    font-weight: 400;
+    font-size: toRem(64px);
+    line-height: toRem(85.31px);
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    &::after {
+        content: "";
+        position: absolute;
+        background: $primary-color;
+        width: toRem(347px);
+        height: 0;
+        margin: 0;
+        border: 1px solid $primary-color;
+        display: block;
+        translate: 0 20px;
+
+    }
+}
+
+.description {}
+
+.comment-section {
+    display: flex;
+    align-items: center;
+    height: 313px;
+}
+
+.client-box {
+
+}
+
+.client-avatar {
+
+}
+
+.client-text {
+
+}
+
+.client-rating {
+
+}
+
+.client-name {
+
+}
+

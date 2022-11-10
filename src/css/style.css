@@ -925,4 +925,47 @@ html, body {
   align-self: flex-start;
 }
 
+html, body {
+  font-size: 16px;
+}
+
+.experiences {
+  max-height: 100vh;
+  max-width: 97.25rem;
+  width: 100%;
+  margin: 0 auto 140px;
+  display: flex;
+  flex-direction: column;
+  height: 51.75rem;
+  justify-content: space-between;
+}
+
+.hdl7 {
+  color: #172432;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.331875rem;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  display: inline-block;
+  margin: 0 0 20px 0;
+}
+.hdl7::after {
+  content: "";
+  position: absolute;
+  background: #FF7757;
+  width: 21.6875rem;
+  height: 0;
+  margin: 0;
+  border: 1px solid #FF7757;
+  display: block;
+  translate: 0 20px;
+}
+
+.comment-section {
+  display: flex;
+  align-items: center;
+  height: 313px;
+}
+
 /*# sourceMappingURL=style.css.map */
