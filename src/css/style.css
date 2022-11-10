@@ -511,6 +511,7 @@ html, body {
   line-height: 1.7775rem;
   margin-top: 2rem;
   margin-bottom: 0;
+  font-size: 1.5rem;
 }
 
 .gallery {
@@ -779,6 +780,26 @@ html, body {
 
 html, body {
   font-size: 16px;
+}
+
+.photo-gallery {
+  max-width: 97.25rem;
+  width: 100%;
+  margin: 0 auto 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.gallery-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 645px;
+}
+
+.gallery-content:nth-child(2) {
+  align-self: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */
