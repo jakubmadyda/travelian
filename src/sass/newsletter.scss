@@ -58,9 +58,9 @@
 
 }
 
-//::placeholder {
-///    color: $primary-color;
-// }
+.email-input::placeholder {
+    color: $primary-color;
+ }
 
 .subscribe {
     font-family: Rubik, sans-serif;
@@ -75,5 +75,8 @@
     cursor: pointer;
 }
 
-
+.subscribe:hover {
+    color: #000;
+    transition-duration: 400ms;
+}
 

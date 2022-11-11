@@ -65,8 +65,14 @@
     line-height: 1.7;
     margin: 0;
     font-style: normal;
+    text-decoration: none;
+    color: $primary-font-color;
 }
 
+.nav-text:hover {
+    color: $primary-color;
+    transition-duration: 400ms;
+}
 .nav-link {
     text-decoration: none;
     color: $primary-font-color;

@@ -1118,6 +1118,10 @@ html, body {
   line-height: 24px;
 }
 
+.email-input::placeholder {
+  color: #FF7757;
+}
+
 .subscribe {
   font-family: Rubik, sans-serif;
   font-weight: 400;
@@ -1129,6 +1133,11 @@ html, body {
   border-radius: 12px;
   border: 0;
   cursor: pointer;
+}
+
+.subscribe:hover {
+  color: #000;
+  transition-duration: 400ms;
 }
 
 html, body {
@@ -1197,6 +1206,13 @@ html, body {
   line-height: 1.7;
   margin: 0;
   font-style: normal;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.nav-text:hover {
+  color: #FF7757;
+  transition-duration: 400ms;
 }
 
 .nav-link {
