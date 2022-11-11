@@ -938,7 +938,7 @@ html, body {
   max-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  margin: 0 auto 140px;
+  margin: 0 auto 240px;
   display: flex;
   flex-direction: column;
   height: 51.75rem;
@@ -1057,6 +1057,14 @@ html, body {
 .nav-button--right {
   rotate: 180deg;
   background: #FF7757;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+.nav-link {
+  font-family: "Playfair Display", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
