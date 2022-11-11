@@ -938,7 +938,7 @@ html, body {
   max-height: 100vh;
   max-width: 97.25rem;
   width: 100%;
-  margin: 0 auto 240px;
+  margin: 0 auto 64px;
   display: flex;
   flex-direction: column;
   height: 51.75rem;
@@ -1061,6 +1061,74 @@ html, body {
 
 html, body {
   font-size: 16px;
+}
+
+.newsletter {
+  width: 72.375rem;
+  height: 7rem;
+  border-radius: 26px;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  translate: 0 116px;
+}
+
+.hdl8 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.33;
+  color: #767E86;
+  margin: 0;
+}
+
+.newsletter-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 32px;
+}
+
+.email-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.email-text {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #767E86;
+}
+
+.email-input {
+  background: #FFE8D4;
+  border-radius: 12px;
+  height: 24px;
+  width: 292px;
+  padding: 24px 40px;
+  border: 0;
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.subscribe {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #FFF;
+  background: #FF7757;
+  padding: 26px 35px;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
 }
 
 html, body {
