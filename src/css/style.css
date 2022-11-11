@@ -482,6 +482,11 @@ html, body {
   gap: 100px;
 }
 
+.headline {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hdl2 {
   color: #172432;
   font-weight: 400;
@@ -966,6 +971,92 @@ html, body {
   display: flex;
   align-items: center;
   height: 313px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.client-box {
+  width: 583px;
+  height: 213px;
+  padding: 60px 40px 40px;
+  background: #F5F6F7;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.client-avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 0 25px 0;
+}
+
+.client-text {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #767E86;
+  margin: 0;
+}
+
+.client-rating {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 136px;
+  height: 24px;
+}
+
+.client-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.client-name {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #767E86;
+  margin: 0;
+}
+
+.client-details {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #767E86;
+  margin: 0;
+}
+
+.nav-buttons {
+  align-self: flex-end;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-arrow {
+  width: 10px;
+  height: 20px;
+  position: center;
+}
+
+.nav-button {
+  width: 66px;
+  height: 60px;
+  border-radius: 12px;
+  background: #172432;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.nav-button--right {
+  rotate: 180deg;
+  background: #FF7757;
 }
 
 /*# sourceMappingURL=style.css.map */
