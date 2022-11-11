@@ -1063,8 +1063,86 @@ html, body {
   font-size: 16px;
 }
 
+.footer {
+  background: #172432;
+}
+
+.footer-nav {
+  max-width: 97.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  padding: 240px 0 140px;
+  margin: 0 auto 0;
+}
+
+.footer-logo-box {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+  height: 78.61px;
+}
+
+.logo {
+  width: 234px;
+  height: 46px;
+}
+
+.copyright {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #FFF;
+  margin-top: 16px;
+}
+
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav-hdl {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.7;
+  font-family: Rubik, sans-serif;
+  color: #FFF;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-text {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+  font-style: normal;
+}
+
 .nav-link {
-  font-family: "Playfair Display", sans-serif;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.nav-box-media {
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icon-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
